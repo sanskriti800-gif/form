@@ -1,0 +1,129 @@
+
+h3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: larger;
+    position: absolute;
+    left:12%;
+    top:14%;  
+}
+.newuser {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    position: absolute;
+    left:12%;
+    top:50%;
+}
+.table1{
+    width: 70%;
+    height: 30%;
+    position: absolute;
+    left:11%;
+    top: 20%; 
+    
+}
+
+
+.icon-bar {
+    width: 5%; /* Set a specific width 678 , 90*/
+    height: 100%;
+    background-color: #555; /* Dark-grey background */
+    display: inline-block;
+  }
+  
+  .icon-bar a {
+    display: block; /* Make the links appear below each other instead of side-by-side */
+    text-align: center; /* Center-align text */
+    padding: 16px; /* Add some padding */
+    transition: all 0.3s ease; /* Add transition for hover effects */
+    color: white; /* White text color */
+    font-size: 36px; /* Increased font-size */
+  }
+  
+  .icon-bar a:hover {
+    background-color: #000; /* Add a hover color */
+  }
+  
+  .active {
+    background-color: #04AA6D; /* Add an active/current color */
+  }
+ 
+  @media (max-width:768px){
+    .newuser{
+         position: relative;
+        left:auto;
+        top:auto; 
+        text-align: left; 
+        
+    }
+    .icon-bar a {
+        display:none; /* Make the links appear below each other instead of side-by-side */
+      }
+      .icon-bar {
+        display:none;
+      }
+      h3{
+         position: relative;
+        left:auto;
+        top:auto;
+        text-align: left;  
+        
+    }
+    .table1{
+        width: 70%;
+        height: 40%;
+         position: relative;
+        left:auto;
+        top: auto; 
+    }
+    .profile h3{
+      padding-top: 5%;
+    }
+    .button{
+      padding-top: 3%;
+    }
+    
+  }
+  @media (max-width:360px) {
+ .table1{
+  width: 70%;
+  height: 50%;
+   position: relative;
+  left:auto;
+  top: auto; 
+}
+  }
+  @media(min-width:1024px){
+    .table2{
+      width:50%;
+      position: absolute;
+      left:11%;
+      top:55%;
+    }
+    .block{
+      padding-bottom: 2%;
+    }
+    .profile{
+      width:50%;
+      position: absolute;
+      left:55%;
+      top:50%;
+    }
+    .profile h3{
+      position:relative;
+      top:70%;
+      left:10%;
+    }
+    .button{
+      width:50%;
+      position: absolute;
+      left:15%;
+      top:83%;
+    }
+    .newuser{
+      font-size: 26px;
+    }
+    }
+
+  
+  
